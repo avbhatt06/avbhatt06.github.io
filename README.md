@@ -353,7 +353,7 @@
                 <p>Have questions about sizing, pricing, or custom design commissions?</p><br>
                 <p>Email: <a href="mailto:Mary.uniquelyubb@gmail.com">Mary.uniquelyubb@gmail.com</a></p>
                 <p>Instagram: <a href="https://instagram.com" target="_blank">@AuraCustomJewelry</a></p>
-                <p>Phone: (555) 123-4567</p>
+                <p>Phone: (352) 354-2130</p>
             </div>
             <div class="qr-section" id="qrContainer">
                 <p style="margin-bottom: 15px; font-size: 0.9rem; color:#777;">Scan to save contact card</p>

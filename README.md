@@ -310,7 +310,11 @@
             </div>
             <div class="about-text">
                 <h2>Behind the Craft</h2>
-                <p>Welcome to our studio. We specialize in turning raw metals, custom gemstones, and unique inspiration into permanent memories. Every single piece engineered here is crafted completely by hand, ensuring that no two items in the world are ever identical.</p>
+                <p>
+                I first moved to Florida in 1982 to escape the cold and began working as a nurse. I found that creative pursuits brought me unparalleled joy. Eventually, I met a friend who was retiring from jewelry making. They showed me the ropes and I found it would be a nice pursuit for my retirement.
+                As my collection grew, I started to receive many custom orders, and consequently, I now offer a wide variety of jewelry, from wearables like bracelets to accessories like purse charms. I even make jewelry for pets.
+                All my jewlery is handmade. Each piece is one-of-a-kind, not just because of the small variations from being handmade, but also due to the unique materials used and patterns shaped.
+                During the autumn and winter months, my creations are showcased at local Art and Craft Fairs and Festivals. I have attended Fairs and Festivals in Inverness, Orlando, World Equestrian Center, Crystal River Manatee Festival, Brooksville, The Villages, Altamonte Springs, Micanopy, McIntosh, Cedar Key, and Dunnellon. I have also registered and plan to register for many more.</p>
             </div>
         </div>
     </main>

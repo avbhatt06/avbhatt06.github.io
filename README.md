@@ -366,7 +366,7 @@
             categories: [
                 {
                     id: "necklaces",
-                    name: "Handcrafted Necklaces",
+                    name: "Necklaces",
                     image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=400&q=80",
                     items: [
                         {
@@ -382,7 +382,7 @@
                 },
                 {
                     id: "bracelets",
-                    name: "Custom Bracelets",
+                    name: "Bracelets",
                     image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=400&q=80",
                     items: [
                         {
@@ -401,7 +401,7 @@
                     image: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=400&q=80",
                     items: [
                         {
-                            id: "dc1",
+                            id: "cn1",
                             title: "The Regal Leather & Brass Collar",
                             description: "Top-grain genuine custom dyed leather embedded safely with polished solid brass studs and hardware rings.",
                             images: [
@@ -409,7 +409,23 @@
                             ]
                         }
                     ]
-                }
+                },
+                 {
+                    id: "earrings",
+                    name: "Earrings",
+                    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=400&q=80",
+                    items: [
+                        {
+                            id: "e1",
+                            title: "Raw Emerald Pendant",
+                            description: "A stunning raw Brazilian emerald wrapped beautifully in hand-spun 14k gold fill wire. Hangs on an 18-inch delicate gold chain.",
+                            images: [
+                                "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=600&q=80",
+                                "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80"
+                            ]
+                        }
+                    ]
+                },
             ]
         };
 

@@ -1,5 +1,5 @@
 # avbhatt06.github.io
-<!DOCTYPE html>
+Coded by AB 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -288,7 +288,7 @@
     <header>
         <div class="logo-slot" onclick="showView('landing-view')">
             <img src="https://via.placeholder.com/150" alt="Company Logo" id="header-logo">
-            <span class="company-name">AURA CUSTOMS</span>
+            <span class="company-name">UNIQUELY YOU BEADS AND BAUBLES</span>
         </div>
         <nav>
             <ul>

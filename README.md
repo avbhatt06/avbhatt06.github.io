@@ -306,7 +306,7 @@
     <main id="about-view" class="view-page">
         <div class="about-container">
             <div class="about-image">
-                <img src="MM headshot.JPG" alt="Artisan Headshot">
+                <img src="MM headshot.JPG" alt="Headshot">
             </div>
             <div class="about-text">
                 <h2>Mary Moosman</h2>

@@ -396,8 +396,8 @@
                     ]
                 },
                 {
-                    id: "dog-collars",
-                    name: "Luxury Dog Collars",
+                    id: "canine-necklaces",
+                    name: "Canine Necklaces",
                     image: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=400&q=80",
                     items: [
                         {

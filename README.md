@@ -286,7 +286,7 @@
 
     <header>
         <div class="logo-slot" onclick="showView('landing-view')">
-            <img src="https://via.placeholder.com/150" alt="Company Logo" id="header-logo">
+            <img src="UY BB Circular logo.JPG" alt="Company Logo" id="header-logo">
             <span class="company-name">UNIQUELY YOU BEADS AND BAUBLES</span>
         </div>
         <nav>

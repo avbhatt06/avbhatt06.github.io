@@ -306,10 +306,10 @@
     <main id="about-view" class="view-page">
         <div class="about-container">
             <div class="about-image">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Artisan Headshot">
+                <img src="MM headshot.JPG" alt="Artisan Headshot">
             </div>
             <div class="about-text">
-                <h2>Behind the Craft</h2>
+                <h2>Mary Moosman</h2>
                 <p>
                 I first moved to Florida in 1982 to escape the cold and began working as a nurse. I found that creative pursuits brought me unparalleled joy. Eventually, I met a friend who was retiring from jewelry making. They showed me the ropes and I found it would be a nice pursuit for my retirement.
                 As my collection grew, I started to receive many custom orders, and consequently, I now offer a wide variety of jewelry, from wearables like bracelets to accessories like purse charms. I even make jewelry for pets.

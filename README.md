@@ -347,7 +347,7 @@
             <h2>Get In Touch</h2>
             <div class="contact-info">
                 <p>Have questions about sizing, pricing, or custom design commissions?</p><br>
-                <p>Email: <a href="mailto:hello@auracustoms.com">hello@auracustoms.com</a></p>
+                <p>Email: <a href="mailto:Mary.uniquelyubb@gmail.com">Mary.uniquelyubb@gmail.com</a></p>
                 <p>Instagram: <a href="https://instagram.com" target="_blank">@AuraCustomJewelry</a></p>
                 <p>Phone: (555) 123-4567</p>
             </div>
@@ -426,6 +426,81 @@
                         }
                     ]
                 },
+                 {
+                    id: "eyeglass-lanyards",
+                    name: "Eyeglass Lanyards",
+                    image: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=400&q=80",
+                    items: [
+                        {
+                            id: "el1",
+                            title: "The Regal Leather & Brass Collar",
+                            description: "Top-grain genuine custom dyed leather embedded safely with polished solid brass studs and hardware rings.",
+                            images: [
+                                "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=600&q=80"
+                            ]
+                        }
+                    ]
+                },
+                 {
+                    id: "id-lanyards",
+                    name: "ID Lanyards",
+                    image: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=400&q=80",
+                    items: [
+                        {
+                            id: "idl1",
+                            title: "The Regal Leather & Brass Collar",
+                            description: "Top-grain genuine custom dyed leather embedded safely with polished solid brass studs and hardware rings.",
+                            images: [
+                                "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=600&q=80"
+                            ]
+                        }
+                    ]
+                },
+                 {
+                    id: "cellphone-lanyards",
+                    name: "Cellphone Lanyards",
+                    image: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=400&q=80",
+                    items: [
+                        {
+                            id: "cl1",
+                            title: "The Regal Leather & Brass Collar",
+                            description: "Top-grain genuine custom dyed leather embedded safely with polished solid brass studs and hardware rings.",
+                            images: [
+                                "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=600&q=80"
+                            ]
+                        }
+                    ]
+                },
+                 {
+                    id: "purse-charms",
+                    name: "Purse Charms",
+                    image: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=400&q=80",
+                    items: [
+                        {
+                            id: "pc1",
+                            title: "The Regal Leather & Brass Collar",
+                            description: "Top-grain genuine custom dyed leather embedded safely with polished solid brass studs and hardware rings.",
+                            images: [
+                                "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=600&q=80"
+                            ]
+                        }
+                    ]
+                },
+                 {
+                    id: "otherbeadedaccessories",
+                    name: "Other Beaded Accessories",
+                    image: "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=400&q=80",
+                    items: [
+                        {
+                            id: "oba1",
+                            title: "The Regal Leather & Brass Collar",
+                            description: "Top-grain genuine custom dyed leather embedded safely with polished solid brass studs and hardware rings.",
+                            images: [
+                                "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=600&q=80"
+                            ]
+                        }
+                    ]
+                }
             ]
         };
 

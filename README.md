@@ -1,5 +1,4 @@
-# avbhatt06.github.io
-Coded by AB 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -241,7 +240,7 @@ Coded by AB
         .product-description {
             font-size: 1.05rem;
             color: #424245;
-            white-space: pre-line; /* Keeps manual linebreaks from text boxes */
+            white-space: pre-line;
         }
 
         /* --- Contact Page --- */
@@ -318,26 +317,22 @@ Coded by AB
 
     <main id="categories-view" class="view-page">
         <h2>Our Collections</h2>
-        <div class="grid-container" id="categories-grid">
-            </div>
+        <div class="grid-container" id="categories-grid"></div>
     </main>
 
     <main id="category-items-view" class="view-page">
         <button class="back-btn" onclick="showView('categories-view')">← Back to Collections</button>
         <h2 id="current-category-title">Category Name</h2>
-        <div class="grid-container" id="items-grid">
-            </div>
+        <div class="grid-container" id="items-grid"></div>
     </main>
 
     <main id="product-subpage-view" class="view-page">
         <button class="back-btn" id="product-back-btn">← Back to Gallery</button>
         <div class="product-container">
-            
             <div class="product-gallery">
                 <img src="" alt="Product Display" class="main-product-img" id="mainDisplayImage">
                 <div class="thumbnail-row" id="thumbnailRack"></div>
             </div>
-
             <div class="product-details">
                 <h2 id="productTitle">Jewelry Title</h2>
                 <div class="product-description" id="productDescription">
@@ -356,7 +351,6 @@ Coded by AB
                 <p>Instagram: <a href="https://instagram.com" target="_blank">@AuraCustomJewelry</a></p>
                 <p>Phone: (555) 123-4567</p>
             </div>
-            
             <div class="qr-section" id="qrContainer">
                 <p style="margin-bottom: 15px; font-size: 0.9rem; color:#777;">Scan to save contact card</p>
                 <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com" alt="Contact QR Code" id="contactQrCode">
@@ -366,7 +360,7 @@ Coded by AB
 
     <script>
         /* ==========================================
-           DATA STORAGE (Modify this easily to change items!)
+           DATA STORAGE
            ========================================== */
         const jewelryData = {
             categories: [
@@ -381,7 +375,7 @@ Coded by AB
                             description: "A stunning raw Brazilian emerald wrapped beautifully in hand-spun 14k gold fill wire. Hangs on an 18-inch delicate gold chain.",
                             images: [
                                 "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=600&q=80",
-                                "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80" // Thumbnail 2
+                                "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80"
                             ]
                         }
                     ]
@@ -422,8 +416,6 @@ Coded by AB
         /* ==========================================
            ROUTING & CORE APP LOGIC
            ========================================== */
-        
-        // Dynamic view flipper
         function showView(viewId) {
             document.querySelectorAll('.view-page').forEach(page => {
                 page.classList.remove('active');
@@ -432,15 +424,12 @@ Coded by AB
             window.scrollTo(0,0);
         }
 
-        // Initialize App & Render Elements
         document.addEventListener("DOMContentLoaded", () => {
             renderCategories();
             checkOptionalElements();
         });
 
-        // Hide structural elements if fields are left blank natively
         function checkOptionalElements() {
-            // Check QR Code
             const qrImg = document.getElementById('contactQrCode');
             const qrContainer = document.getElementById('qrContainer');
             if(!qrImg.getAttribute('src') || qrImg.getAttribute('src') === "") {
@@ -448,7 +437,6 @@ Coded by AB
             }
         }
 
-        // Render Main Categories Screen
         function renderCategories() {
             const container = document.getElementById('categories-grid');
             container.innerHTML = "";
@@ -467,7 +455,6 @@ Coded by AB
             });
         }
 
-        // Render Items inside a Specific Selected Category
         function openCategory(catId) {
             const category = jewelryData.categories.find(c => c.id === catId);
             if(!category) return;
@@ -492,37 +479,29 @@ Coded by AB
             showView('category-items-view');
         }
 
-        // Open Individual Product Subpage Layout
         function openProduct(catId, itemId) {
             const category = jewelryData.categories.find(c => c.id === catId);
             const item = category.items.find(i => i.id === itemId);
             if(!item) return;
 
-            // Wire back button routing cleanly
             document.getElementById('product-back-btn').onclick = () => openCategory(catId);
-
-            // Populate text elements
             document.getElementById('productTitle').innerText = item.title;
             document.getElementById('productDescription').innerText = item.description;
 
-            // Primary Image Layout Set
             const mainImg = document.getElementById('mainDisplayImage');
             mainImg.src = item.images[0];
 
-            // Render Thumbnails array dynamically (Maximum 10 structural constraint handled natively)
             const thumbRack = document.getElementById('thumbnailRack');
             thumbRack.innerHTML = "";
 
-            // Loop up to 10 array entries, ignoring empty allocations cleanly
             const limit = Math.min(item.images.length, 10);
             
-            if(limit > 1) { // Only display row if there are actual multiple photos
+            if(limit > 1) {
                 for(let i = 0; i < limit; i++) {
                     const thumb = document.createElement('img');
                     thumb.src = item.images[i];
                     if(i === 0) thumb.className = 'active';
                     
-                    // Click event to swap main picture focus
                     thumb.onclick = function() {
                         mainImg.src = this.src;
                         document.querySelectorAll('.thumbnail-row img').forEach(img => img.classList.remove('active'));
